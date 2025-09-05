@@ -62,6 +62,20 @@ return [
             ]) : [],
         ],
 
+        'countries_db' => [
+            'driver' => 'mysql',
+            'host' => env('COUNTRIES_DB_HOST', '127.0.0.1'),
+            'port' => env('COUNTRIES_DB_PORT', '3306'),
+            'database' => env('COUNTRIES_DB_DATABASE', 'countries_db'),
+            'username' => env('COUNTRIES_DB_USERNAME', 'root'),
+            'password' => env('COUNTRIES_DB_PASSWORD', ''),
+            'charset' => 'utf8mb4',
+            'collation' => 'utf8mb4_unicode_ci',
+            'prefix' => '',
+            'strict' => true,
+            'engine' => null,
+        ],
+
         'mariadb' => [
             'driver' => 'mariadb',
             'url' => env('DB_URL'),

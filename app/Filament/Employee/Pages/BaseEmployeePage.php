@@ -13,7 +13,6 @@ abstract class BaseEmployeePage extends Page
         $can = auth()->user()?->can(static::$requiredPermission) ?? false;
 
         if (! $can) {
-            // ✅ Use Livewire redirect
             $this->redirect(RestrictedAccess::getUrl());
         }
     }
