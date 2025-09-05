@@ -1,9 +1,9 @@
 <x-filament-panels::page>
-    <h2 class="text-lg font-bold mb-4">Test Page 1</h2>
+    <h2 class="text-lg font-bold mb-4">Test Page 3</h2>
 
     <table class="min-w-full border rounded">
         <thead>
-            <tr class="bg-gray-100">
+            <tr >
                 <th class="px-4 py-2 border">ID</th>
                 <th class="px-4 py-2 border">Name</th>
             </tr>
